@@ -1,9 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Teko:wght@400;600&display=swap');
 
-body {
-    font-family: 'Fjalla One';
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
-h1 {
-    color: black
+body {
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+}
+
+h1,
+h2 {
+    color: orange;
+    text-transform: uppercase;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+}
+
+#navigation {
+    font: size 120%;
+    letter-spacing: 3px;
+    float: right;
+}
+
+#navigation,
+#logo {
+    line-height: 70px;
+}
+
+#navigation li {
+    float: left;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: orange;
+
 }
