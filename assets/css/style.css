@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Teko:wght@400;600&display=swap');
+
 body {
-    font-family: Arial;
+    font-family: 'Fjalla One';
 }
+
 h1 {
-    color:black
+    color: black
 }
