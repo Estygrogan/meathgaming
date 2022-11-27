@@ -44,3 +44,11 @@ h2 {
     color: orange;
 
 }
+
+#navigation a:hover {
+    border-bottom: 1px solid;
+}
+
+.active {
+    border-bottom: 1px solid;
+}
