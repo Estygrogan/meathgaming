@@ -93,12 +93,24 @@ h2 {
     text-transform: uppercase;
 }
 
-
+#why-join {
+    height: 600px;
+    background-color: rgba(245, 153, 39, 0.8);
+}
 
 #section-one-text {
-    width: 800px;
-    height: 600px;
 
+    padding: top 30px;
+    width: 50%;
+    float: left;
     margin-left: 30px;
     letter-spacing: 2px;
+}
+
+#section-one-image {
+    padding-top: 30px;
+    float: right;
+    width: 50%;
+    background: url(../images/pexels-suludan-diliyaer-596750.jpg) no-repeat right;
+    background-size: cover;
 }
