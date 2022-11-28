@@ -11,6 +11,7 @@
 body {
     font-family: 'Fjalla One', sans-serif;
     color: white;
+    
 }
 
 h1,
@@ -95,7 +96,6 @@ h2 {
 
 #why-join {
     height: 600px;
-    background-color: rgba(245, 153, 39, 0.8);
 }
 
 #section-one-text {
