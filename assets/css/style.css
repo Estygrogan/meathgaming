@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     border: none;
+    background-color: black;
 }
 
 h1,
@@ -63,7 +64,7 @@ h2 {
 #hero-image {
     height: 800px;
     width: 100%;
-    background: url(../images/pexels-rodnae-productions-7915493.jpg) no-repeat center center;
+    background: url(../images/hero_image.jpg) no-repeat center center;
 }
 
 #cover-text {
@@ -118,18 +119,17 @@ h2 {
 #section-one-image {
     padding-top: 600px;
     float: right;
-    width: 50%;
-    height: auto;
-    background: url(../images/pexels-suludan-diliyaer-596750.jpg) no-repeat;
-    background-size: contain
+    width: 600px;
+    height: 600px;
+    background: url(../images/section_one_img.jpg) no-repeat;
+    background-size: contain;
+    position: relative;
 }
 
 #schedule {
     color: black;
     background-color: orange;
-    width: 20%;
-    float: left;
-    height:300px;
+    width: 100%;
     text-align: center;
 
 }
