@@ -1,17 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Teko:wght@400;600&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-    background-color: #121212;
 
-}
 
 body {
     font-family: 'Fjalla One', sans-serif;
-    color: white;
-
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 h1,
@@ -97,7 +93,11 @@ h2 {
 #why-join {
     height: 600px;
     padding-top: 40px;
+    background-color: black;
+
 }
+
+
 
 #section-one-text {
 
@@ -105,9 +105,15 @@ h2 {
     width: 50%;
     float: left;
     margin-left: 30px;
-    letter-spacing: 2px;
     margin-top: 20px;
+    letter-spacing: 2px;
+    color: white;
+
 }
+
+
+
+
 
 #section-one-image {
     padding-top: 600px;
@@ -115,5 +121,15 @@ h2 {
     width: 50%;
     height: auto;
     background: url(../images/pexels-suludan-diliyaer-596750.jpg) no-repeat;
-    background-size: cover;
+    background-size: contain
+}
+
+#schedule {
+    color: black;
+    background-color: orange;
+    width: 20%;
+    float: left;
+    height:300px;
+    text-align: center;
+
 }
