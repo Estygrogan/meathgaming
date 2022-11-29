@@ -9,6 +9,7 @@ body {
     padding: 0;
     border: none;
     background-color: black;
+    position: relative;
 }
 
 h1,
@@ -23,7 +24,7 @@ h2 {
 }
 
 #navigation {
-    font: size 120%;
+    font-size: 120%;
     letter-spacing: 3px;
     float: right;
 }
@@ -68,7 +69,6 @@ h2 {
 }
 
 #cover-text {
-    font: size 130%;
     font-family: 'Fjalla One', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -91,7 +91,7 @@ h2 {
     text-transform: uppercase;
 }
 
-#why-join {
+.why-join {
     height: 600px;
     padding-top: 40px;
     background-color: black;
@@ -102,7 +102,7 @@ h2 {
 
 #section-one-text {
 
-    padding: top 30px;
+    padding-top: 30px;
     width: 50%;
     float: left;
     margin-left: 30px;
@@ -112,12 +112,7 @@ h2 {
 
 }
 
-
-
-
-
 #section-one-image {
-    padding-top: 600px;
     float: right;
     width: 600px;
     height: 600px;
@@ -126,10 +121,27 @@ h2 {
     position: relative;
 }
 
-#schedule {
+.daily-event {
     color: black;
     background-color: orange;
-    width: 100%;
+    width: 300px;
     text-align: center;
+    float: right;
+    margin-bottom: 33%;
 
 }
+
+.sign-up-form {
+    margin: auto;
+    text-align: end;
+    position: fixed;
+}
+
+.sign-up-form h2 {
+    color: black;
+}
+
+label {
+    color: white;
+}
+
