@@ -4,14 +4,14 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: black;
+    background-color: #121212;
 
 }
 
 body {
     font-family: 'Fjalla One', sans-serif;
     color: white;
-    
+
 }
 
 h1,
@@ -96,6 +96,7 @@ h2 {
 
 #why-join {
     height: 600px;
+    padding-top: 40px;
 }
 
 #section-one-text {
@@ -108,9 +109,10 @@ h2 {
 }
 
 #section-one-image {
-    padding-top: 30px;
+    padding-top: 600px;
     float: right;
     width: 50%;
-    background: url(../images/pexels-suludan-diliyaer-596750.jpg) no-repeat right;
+    height: auto;
+    background: url(../images/pexels-suludan-diliyaer-596750.jpg) no-repeat;
     background-size: cover;
 }
