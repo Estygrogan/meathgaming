@@ -12,9 +12,13 @@ body {
     position: relative;
 }
 
-h1,
-h2 {
+h1 {
     color: orange;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: white;
     text-transform: uppercase;
 }
 
@@ -98,7 +102,10 @@ h2 {
 
 }
 
-
+.why-join h2 {
+    color: orange;
+    text-transform: uppercase;
+}
 
 #section-one-text {
 
@@ -124,21 +131,20 @@ h2 {
 .daily-event {
     color: black;
     background-color: orange;
-    width: 300px;
+    width: 100%;
     text-align: center;
     float: right;
-    margin-bottom: 33%;
 
 }
 
 .sign-up-form {
     margin: auto;
     text-align: end;
-    position: fixed;
+
 }
 
 .sign-up-form h2 {
-    color: black;
+    color: white;
 }
 
 label {

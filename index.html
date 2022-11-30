@@ -34,7 +34,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#signup">
                         Register
                     </a>
                 </li>
@@ -55,7 +55,7 @@
         </div>
     </section>
     <section class="why-join">
-        <h1>Why Join Meath Gaming?</h1>
+        <h2>Why Join Meath Gaming?</h2>
         <div id="section-one-text">
             <div>
                 <h2>Games for All</h2>
@@ -72,7 +72,7 @@
                     pcs. At our events, we
                     have several Playstation and Xbox consoles, as well as a small number of gaming PCs, allowing you to
                     take your gaming to the next level. </p>
-                <h2></h2>
+                
             </div>
 
         </div>
@@ -110,21 +110,22 @@
             <h3>18:00-22:00</h3>
         </div>
     </section>
-    <section class="sign-up-form">
+    <section class="sign-up-form" id="signup">
         <form action="https://formdump.codeinstitute.net" method="POST">
             <h2> Join our growing community!</h2>
-            <label for="fname" id="fname" type="text" name="first_name">
+            <label for="fname">
                 First Name
+                <input type="text" id="fname" name="first_name" placeholder="First Name" required>
             </label>
-            <input type="text" name="first_name" placeholder="First Name" required>
-            <label for="lname" id="lname type=" text name="last_name">
+            
+            <label for="lname">
                 Last Name
             </label>
-            <input type="text" name="last_name"placeholder="Last Name" required>
-            <label for="email" id="email">
+            <input type="text" id="lname" name="last_name" placeholder="Last Name" required>
+            <label for="email" >
                 Email
             </label>
-            <input type="email" placeholder="Email" required>
+            <input type="email" id="email" placeholder="Email" required>
             <input type="submit" value="Let's Play!">
 
         </form>
