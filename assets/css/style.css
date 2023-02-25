@@ -20,6 +20,8 @@ h1 {
 h2 {
     color: white;
     text-transform: uppercase;
+    width: 100%;
+
 }
 
 #logo {
@@ -99,12 +101,13 @@ h2 {
     height: 600px;
     padding-top: 40px;
     background-color: black;
-
+    width: 100%;
 }
 
 .why-join h2 {
     color: orange;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .section-one-text {
@@ -112,7 +115,6 @@ h2 {
     padding-top: 30px;
     width: 50%;
     float: left;
-    margin-left: 30px;
     margin-top: 20px;
     letter-spacing: 2px;
     color: white;
@@ -156,6 +158,11 @@ h2 {
 
 label {
     color: white;
+}
+
+.form-inputs {
+    text-align: center;
+    width: 100%;
 }
 
 #footer {
