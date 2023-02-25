@@ -1,6 +1,8 @@
+
 # Meath Gaming
 
-Meath Gaming is a website designed by a community of gamers based in County Meath, Ireland. The purpose of the site is to welcome enthusiasts, beginners and veterans alike, to the community, and allow them to register their interest.
+Meath Gaming is a website designed by a community of gamers based in County Meath, Ireland. The purpose of the site is to welcome enthusiasts, beginners and veterans alike, to the community, and allow them to register their interest. Due to the pandemic, I believe there is a need for us to socialise and interact with each other more. I hope that this website can help facilitate this to some extent.
+![Website Display](assets/images/Portfolio1Displays.PNG)
 
 ## Features
 
@@ -18,7 +20,7 @@ Extensive testing was conducted, with many bugs being resolved. Early on, there 
 
 ## Unfixed Bugs
 
-Footer is not currently staying at bottom of page. CSS was written to remedy this, however nothing has worked to achieve this. Troubleshooting has not led to a working solution.
+No fixed bugs remain in the project.
 
 ## Deployment
 

@@ -195,6 +195,10 @@ label {
     float: right;
 }
 
+a {
+    color: white;
+}
+
 /*Improves readability on smaller devices*/
 @media screen and (max-width: 768px) {
     body {
